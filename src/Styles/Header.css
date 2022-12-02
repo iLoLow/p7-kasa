@@ -1,8 +1,8 @@
 .header {
+  display: flex;
   max-width: 1240px;
   width: 100%;
   margin-inline: auto;
-  display: flex;
   justify-content: space-between;
   padding: 40px 20px;
 }
@@ -11,10 +11,9 @@
   height: 68px;
 }
 
-ul {
+.header nav ul {
   display: flex;
   gap: 50px;
   list-style-type: none;
-  font-size: 24px;
   font-weight: 500;
 }

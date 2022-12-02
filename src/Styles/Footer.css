@@ -1,12 +1,12 @@
 .footer {
-  height: 209px;
   display: flex;
   flex-direction: column;
+  height: 209px;
   background: #000000;
   justify-content: space-around;
   align-items: center;
-  gap: 20px;
   text-align: center;
+  gap: 20px;
 }
 
 .footer img {
