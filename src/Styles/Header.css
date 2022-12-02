@@ -1,0 +1,20 @@
+.header {
+  max-width: 1240px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+.header img {
+  width: 210.32px;
+  height: 68px;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 500;
+}
