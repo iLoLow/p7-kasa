@@ -10,7 +10,7 @@ function Card({data}) {
 	}
 
 	return (
-		<article onClick={handleNavigation} className={styles.card}>
+		<article onClick={handleNavigation} className="card">
 			<h2 className="title-card">{title}</h2>
 			<img src={cover} alt={title}/>
 		</article>
