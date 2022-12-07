@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 340px;
+  cursor: pointer;
+}
+
+.card::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.card img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #ffffff;
+  z-index: 1;
+  margin: 20px;
+}

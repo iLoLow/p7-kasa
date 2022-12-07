@@ -1,0 +1,24 @@
+.title-home {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  font-size: 48px;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-inline: 16px;
+}
+
+.title-home span {
+  color: #ffffff;
+}
+
+.cards {
+  margin-block: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 25px;
+  background: var(--colorGreyLight);
+}
