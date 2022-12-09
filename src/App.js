@@ -1,15 +1,18 @@
 import "./Styles/App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import AppRoutes from "./AppRoutes";
 import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-      <Home />
+      <main className="main">
+        <Home />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
 
