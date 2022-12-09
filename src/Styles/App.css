@@ -2,6 +2,11 @@
 
 * {
   font-family: "Montserrat", sans-serif;
-  color: #ff6060;
-  font-size: 24px;
+  box-sizing: border-box;
+  margin: 0;
+}
+.main {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,0 +1,21 @@
+.banner {
+  border-radius: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.banner::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: #000000;
+  mix-blend-mode: darken;
+  opacity: 0.3;
+}
+.banner img {
+  width: 100%;
+  object-fit: cover;
+}

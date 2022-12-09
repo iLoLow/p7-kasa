@@ -1,10 +1,23 @@
 import Banner from "../components/Banner";
+import {useEffect, useState} from "react";
+import {useNavigate} from "react-router-dom";
+import Card from "../components/Card";
+import "../Styles/Home.css"
 
 
 function Home() {
   document.title = "Kasa - Accueil";
 
-  fetch("../datas/logements.json").then((response) => response.json());
+  
+  const [AllHousings, setAllHousings] = useState([]);
+  const navigation = useNavigate();
+
+  useEffect(() => {
+		fetch("./logements.json")
+			.then((response) => response.json())
+			.then((datahousings) => setAllHousings(datahousings))
+			.catch(() =>	navigation("/error"));
+	}, [navigation]);
 
   return (
     <>
@@ -12,7 +25,10 @@ function Home() {
         <h1 className="title-home">
           <span>Chez vous,&nbsp;</span><span>partout et ailleurs</span>
         </h1>
-        </Banner>
+      </Banner>
+      <section className="cards">
+				{AllHousings.length > 0 && AllHousings.map((item) => <Card data={item} key={item.id}/>)}
+			</section> 
     </>
   )
 }

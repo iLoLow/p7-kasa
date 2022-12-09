@@ -2,6 +2,7 @@
   display: flex;
   max-width: 1240px;
   width: 100%;
+  align-items: center;
   margin-inline: auto;
   justify-content: space-between;
   padding: 40px 20px;
@@ -15,7 +16,14 @@
   display: flex;
   gap: 50px;
   font-weight: 500;
+  font-size: 24px;
 }
 .link {
   text-decoration: none;
+  color: #ff6060;
+  transition: 0.3s;
+}
+.link:hover,
+.link-active {
+  text-decoration: underline;
 }
