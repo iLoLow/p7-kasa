@@ -10,5 +10,11 @@
 /* flex-wrap: wrap; */
 .cards {
   background: #f7f7f7;
+  margin-block: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-content: space-between;
+  padding: 50px;
   border-radius: 25px;
 }

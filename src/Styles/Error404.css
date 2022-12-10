@@ -1,0 +1,31 @@
+.Error {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  padding-inline: 20px;
+  height: 100%;
+  color: #ff6060;
+}
+
+.number {
+  font-size: 288px;
+  font-weight: bold;
+}
+
+.titleMessage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  white-space: nowrap;
+}
+
+.ReturnToHome {
+  margin: 80px auto 120px;
+  font-size: 18px;
+  color: #ff6060;
+  font-weight: 500;
+}

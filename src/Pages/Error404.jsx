@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import "../Styles/Error404.css"
 
 function Error404() {
 		document.title = "Kasa - 404";
