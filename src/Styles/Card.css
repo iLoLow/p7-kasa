@@ -1,4 +1,5 @@
 .card {
+  display: flex;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -14,8 +15,8 @@
 }
 
 .card img {
-  height: 100%;
   object-fit: cover;
+  height: 100%;
 }
 
 .title {
@@ -26,7 +27,7 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
-  color: #ffffff;
   z-index: 1;
   margin: 20px;
+  color: #ffffff;
 }
