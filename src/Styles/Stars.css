@@ -1,0 +1,10 @@
+.stars {
+  font-size: 34px;
+  color: #f7f7f7;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+.starActive {
+  color: #ff6060;
+}
