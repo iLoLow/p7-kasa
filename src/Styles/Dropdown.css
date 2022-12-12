@@ -77,3 +77,25 @@ svg {
   font-size: 18px;
   font-weight: 400;
 }
+@media screen and (max-width: 768px) {
+  .dropdown-close {
+    max-width: 100%;
+  }
+
+  .dropdown-header,
+  .dropdown-close-header {
+    min-height: 30px;
+    border-radius: 5px;
+    padding-inline: 11px;
+  }
+  .btn {
+    width: 22px;
+  }
+  .dropdown-title {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .dropdown-body {
+    font-size: 12px;
+  }
+}

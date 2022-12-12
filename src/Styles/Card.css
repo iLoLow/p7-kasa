@@ -31,3 +31,8 @@
   margin: 20px;
   color: #ffffff;
 }
+@media screen and (max-width: 768px) {
+  .card {
+    height: 255px;
+  }
+}

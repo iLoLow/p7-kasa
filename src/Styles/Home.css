@@ -7,7 +7,7 @@
   font-size: 48px;
   color: white;
 }
-/* flex-wrap: wrap; */
+
 .cards {
   background: #f7f7f7;
   margin-block: 50px;
@@ -17,4 +17,17 @@
   justify-content: space-between;
   padding: 50px;
   border-radius: 25px;
+}
+@media screen and (max-width: 768px) {
+  .title-home {
+    font-size: 24px;
+  }
+
+  .cards {
+    margin-block: 22px;
+    grid-template-columns: 1fr;
+    background: none;
+    padding: 0;
+    gap: 22px;
+  }
 }

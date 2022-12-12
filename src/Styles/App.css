@@ -15,10 +15,11 @@ body {
 }
 
 .main {
-  max-width: 1240px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   flex: 1 1;
+  padding-inline: 20px;
 }
 img {
   width: 100%;

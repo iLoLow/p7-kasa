@@ -6,3 +6,12 @@
   gap: 30px;
   margin: 30px;
 }
+@media screen and (max-width: 768px) {
+  .Dropdown {
+    margin: 20px 0;
+    gap: 20px;
+  }
+  .banner img {
+    height: 223px;
+  }
+}

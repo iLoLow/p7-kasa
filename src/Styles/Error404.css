@@ -29,3 +29,14 @@
   color: #ff6060;
   font-weight: 500;
 }
+@media screen and (max-width: 768px) {
+  .number {
+    font-size: 96px;
+  }
+  .titleMessage {
+    font-size: 18px;
+  }
+  .ReturnToHome {
+    font-size: 14px;
+  }
+}
