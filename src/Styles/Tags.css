@@ -1,0 +1,14 @@
+.contener-tag {
+  display: flex;
+  margin-block: 20px;
+  gap: 10px;
+}
+
+.tag {
+  border-radius: 10px;
+  background: #ff6060;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 40px;
+}
