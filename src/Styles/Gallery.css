@@ -1,0 +1,37 @@
+.gallery {
+  position: relative;
+  height: 415px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.gallery-count {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.gallery-img img {
+  width: 1240px;
+
+  height: 415px;
+  object-fit: cover;
+}
+
+.gallery-arrowLeft,
+.gallery-arrowRight {
+  height: 79px;
+  width: 46px;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+}
+.gallery-arrowRight {
+  right: 0;
+}
+
+.gallery-arrowLeft {
+  left: 0;
+}

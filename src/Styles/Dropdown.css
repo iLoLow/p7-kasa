@@ -19,7 +19,7 @@
   color: #ffffff;
   padding: 0 18px;
   min-height: 47px;
-  border-radius: 5px;
+  border-radius: 10px;
   z-index: 1;
 }
 
@@ -31,7 +31,7 @@
 
 .dropdown-title {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .dropdown-close-title {
@@ -71,6 +71,7 @@ svg {
 }
 .dropdown-body p {
   color: #ff6060;
+  font-size: 18px;
 }
 
 .dropdown-body-close {
