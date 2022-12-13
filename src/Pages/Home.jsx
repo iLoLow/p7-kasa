@@ -22,11 +22,13 @@ function Home() {
 
   return (
     <>
+    <div className="home">
       <Banner background={bannerImg}>
         <h1 className="title-home">
           <span>Chez vous,&nbsp;</span><span>partout et ailleurs</span>
         </h1>
       </Banner>
+      </div>
       <section className="cards">
 				{AllHousings.length > 0 && AllHousings.map((item) => <Card data={item} key={item.id}/>)}
 			</section> 
