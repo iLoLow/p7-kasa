@@ -1,31 +1,41 @@
 .gallery {
   position: relative;
-  height: 415px;
   overflow: hidden;
+  height: 415px;
+  width: 100%;
   border-radius: 25px;
 }
 .gallery-count {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #ffffff;
   font-size: 18px;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
 }
 
+.gallery-img {
+  position: absolute;
+  inset: 0;
+}
 .gallery-img img {
-  width: 1240px;
-
-  height: 415px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+}
+.gallery-arrow {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .gallery-arrowLeft,
 .gallery-arrowRight {
   height: 79px;
   width: 46px;
-  position: absolute;
-  top: 40%;
+  margin-inline: 20px;
   cursor: pointer;
 }
 .gallery-arrowRight {
