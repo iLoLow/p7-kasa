@@ -6,6 +6,9 @@
   border-radius: 25px;
   overflow: hidden;
 }
+.banner img {
+  object-fit: cover;
+}
 .banner::before {
   position: absolute;
   inset: 0;
