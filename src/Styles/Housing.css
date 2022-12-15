@@ -37,6 +37,7 @@
 .housing-body .dropdown-header {
   padding: 0px 12px;
   min-height: 52px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -65,6 +66,7 @@
   }
   .housing-body .dropdown-header {
     min-height: 30px;
+    border-radius: 5px;
   }
   .housing-body .dropdown-title {
     font-size: 13px;
