@@ -18,7 +18,7 @@
   line-height: 25px;
 }
 
-.name {
+.housing-profil {
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -30,4 +30,47 @@
   margin-bottom: 24px;
   gap: 80px;
   font-size: 18px;
+}
+.housing-body .dropdown-title {
+  font-size: 18px;
+}
+.housing-body .dropdown-header {
+  padding: 0px 12px;
+  min-height: 52px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-housing {
+    flex-direction: column;
+  }
+  .housing-title h2 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .housing-profil {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .housing-title {
+    width: 100%;
+  }
+  .housing-title p {
+    font-size: 14px;
+  }
+  .housing-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .housing-body .dropdown-header {
+    min-height: 30px;
+  }
+  .housing-body .dropdown-title {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .housing-body .dropdown-body p {
+    font-size: 12px;
+  }
 }

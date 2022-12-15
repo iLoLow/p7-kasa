@@ -8,3 +8,8 @@
 .starActive {
   color: #ff6060;
 }
+@media screen and (max-width: 768px) {
+  .stars {
+    font-size: 18px;
+  }
+}

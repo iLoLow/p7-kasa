@@ -38,7 +38,7 @@ function Housing() {
 						<p>{location}</p>
 						{tags && < Tags tags={tags}/>}
 					</div>
-					<div className="name">
+					<div className="housing-profil">
 						<Profil host={host}/>
 						<Stars rating={rating}/>
 					</div>

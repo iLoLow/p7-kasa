@@ -18,6 +18,12 @@
   padding: 50px;
   border-radius: 25px;
 }
+@media screen and (max-width: 997px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .home .banner img {
     border-radius: 10px;

@@ -45,3 +45,19 @@
 .gallery-arrowLeft {
   left: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    border-radius: 10px;
+    height: 255px;
+  }
+  .gallery-count {
+    display: none;
+  }
+  .gallery-arrowLeft,
+  .gallery-arrowRight {
+    height: 20px;
+    width: 12px;
+    margin-inline: 5px;
+  }
+}
