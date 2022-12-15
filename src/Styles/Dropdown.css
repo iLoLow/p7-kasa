@@ -94,9 +94,9 @@ svg {
   }
   .dropdown-title {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
   }
-  .dropdown-body {
+  .dropdown-body p {
     font-size: 12px;
   }
 }

@@ -21,7 +21,7 @@
 .housing-profil {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 20px;
 }
 
 .housing-body {
@@ -65,12 +65,5 @@
   }
   .housing-body .dropdown-header {
     min-height: 30px;
-  }
-  .housing-body .dropdown-title {
-    font-size: 13px;
-    font-weight: 500;
-  }
-  .housing-body .dropdown-body p {
-    font-size: 12px;
   }
 }
