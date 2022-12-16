@@ -1,4 +1,4 @@
-.header-housing {
+.housing-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -21,7 +21,7 @@
 .housing-profil {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .housing-body {
@@ -39,9 +39,12 @@
   min-height: 52px;
   border-radius: 10px;
 }
+.housing-body .dropdown-body p {
+  font-size: 18px;
+}
 
 @media screen and (max-width: 768px) {
-  .header-housing {
+  .housing-header {
     flex-direction: column;
   }
   .housing-title h2 {

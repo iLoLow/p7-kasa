@@ -32,7 +32,7 @@ function Housing() {
 				{pictures &&
 				<Gallery pictures={pictures}/>
 				}
-				<div className="header-housing">
+				<div className="housing-header">
 					<div className="housing-title">
 						<h2>{title}</h2>
 						<p>{location}</p>
