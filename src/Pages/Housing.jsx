@@ -9,10 +9,14 @@ import "../Styles/Housing.css"
 
 
 function Housing() {
+	/* It's destructuring the id from the useParams hook. */
 	const {id} = useParams();
+	/* It's setting the state of the housing. */
 	const [housing, setHousing] = useState({});
+	/* It's setting the navigation variable to the useNavigate hook. */
 	const navigation = useNavigate();
 
+/* It's fetching the data from the json file and setting the state of the housing. */
 	useEffect(() => {
 		fetch('../logements.json')
 			.then((response) => response.json())
@@ -23,12 +27,15 @@ function Housing() {
 			}).catch(() => navigation("/error"));
 	},[id, navigation]);
 
+	/* It's destructuring the housing object. */
 	const {title, location, pictures, rating, host, tags, description, equipments} = housing;
 
 	document.title = `Kasa - ${title}`;
 
 	return (
 			<>
+				{/* It's a ternary operator. It's checking if the pictures array is not empty. If it's not empty,
+				it's displaying the Gallery component. */}
 				{pictures &&
 				<Gallery pictures={pictures}/>
 				}

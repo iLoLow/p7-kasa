@@ -11,8 +11,8 @@ function Card({data}) {
 		navigation(`/housing/${id}`);
 	}
 
+/* The above code is creating a card with a title and an image. */
 	return (
-		/*create balise article with id housting  */
 		<article onClick={idHousing} className="card">
 			<h2 className="title">{title}</h2>
 			<img src={cover} alt={title}/>

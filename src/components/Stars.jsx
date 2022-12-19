@@ -2,6 +2,7 @@ import "../Styles/Stars.css";
 
 function Stars({rating}) {
 	return (
+/* Creating a star rating system. */
 			<div className="stars">
 				{[...Array(5)].map((_, i) => {
 					const index = ++i;

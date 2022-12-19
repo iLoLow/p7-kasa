@@ -10,9 +10,12 @@ function Home() {
   document.title = "Kasa - Accueil";
 
   
+  /* Creating a state for the data that will be fetched from the json file. */
   const [AllHousings, setAllHousings] = useState([]);
+  /* A hook that allows to navigate to a specific page. */
   const navigation = useNavigate();
 
+  /* Fetching the data from the json file and setting it to the state. */
   useEffect(() => {
 		fetch("./logements.json")
 			.then((response) => response.json())

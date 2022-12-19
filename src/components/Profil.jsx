@@ -3,6 +3,8 @@ import "../Styles/Profil.css";
 function Profil({host}) {
 	return (
 		<>
+			{/* It's a ternary operator. If host is true, it will return the div. If host is false, it will
+			return nothing. */}
 			{host &&
 				<div className="host">
 					<p className="name">

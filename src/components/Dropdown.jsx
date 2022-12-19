@@ -5,6 +5,7 @@ function Dropdown({dropdownClose = false,title,children}){
     const [dropdownOpen, dropdownSetIsOpen] = useState(false)
 
 
+    /* Returning the dropdown component. */
     return (
         /* create div with double class for dropdown close or open*/
         <div className={dropdownClose ? "dropdown-close" : "dropdown-large"}>
@@ -23,6 +24,8 @@ function Dropdown({dropdownClose = false,title,children}){
                      }
                 </button>
             </div>
+            {/* If dropdownOpen is true, then it will render the div with the className of
+            dropdown-body-close or dropdown-body. */}
             {dropdownOpen &&
                 <div className={dropdownClose ? "dropdown-body-close" : "dropdown-body"}>
                     {children}
