@@ -6,7 +6,7 @@ Projet 7
 
 Créez une application web de location immobilière avec React.
 
-## 🛠 Outils standards
+## Outils standards
 
 - Create React App
 - React Router
