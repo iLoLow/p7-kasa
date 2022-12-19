@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# App Kasa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projet 7
 
-## Available Scripts
+## Context du projet
+
+Créez une application web de location immobilière avec React.
+
+## 🛠 Outils standards
+
+- Create React App
+- React Router
+- Pas de librairie React externe
+
+### Available Scripts
 
 In the project directory, you can run:
 
