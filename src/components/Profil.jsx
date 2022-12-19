@@ -9,7 +9,7 @@ function Profil({host}) {
 						{host.name}
 					</p>
 					<div className="avatar">
-						<img src={host.picture.toString()} alt=""/>
+						<img src={host.picture.toString()} alt="illustration avatar"/>
 					</div>
 				</div>
 			}

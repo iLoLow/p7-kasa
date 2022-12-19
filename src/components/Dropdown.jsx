@@ -6,6 +6,7 @@ function Dropdown({dropdownClose = false,title,children}){
 
 
     return (
+        /* create div with double class for dropdown close or open*/
         <div className={dropdownClose ? "dropdown-close" : "dropdown-large"}>
             <div className={dropdownClose ?"dropdown-close-header" : "dropdown-header"}>
                 <h2 className={dropdownClose ?"dropdown-close-title" : "dropdown-title"}>{title}</h2>

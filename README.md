@@ -1,4 +1,4 @@
-# App Kasa
+# Application REACT Kasa
 
 Projet 7
 
@@ -6,7 +6,7 @@ Projet 7
 
 Créez une application web de location immobilière avec React.
 
-## Outils standards
+## Outils
 
 - Create React App
 - React Router

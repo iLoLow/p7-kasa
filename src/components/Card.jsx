@@ -12,6 +12,7 @@ function Card({data}) {
 	}
 
 	return (
+		/*create balise article with id housting  */
 		<article onClick={idHousing} className="card">
 			<h2 className="title">{title}</h2>
 			<img src={cover} alt={title}/>

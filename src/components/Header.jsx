@@ -3,7 +3,9 @@ import logo from "../assets/logo.png";
 import "../Styles/Header.css";
 
 function Header() {
+  /* create section header with img and link active */
   return (
+    
     <header className="header">
       <Link to="/" aria-label="Accueil"><img src={logo} className="logo-kasa" alt="logo kasa" /></Link>
       <nav>

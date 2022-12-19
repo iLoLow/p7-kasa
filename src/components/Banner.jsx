@@ -1,7 +1,5 @@
 import "../Styles/Banner.css";
 
-
-
 function Banner({background, children}) {
   return (
     <section className="banner">
