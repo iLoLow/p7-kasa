@@ -18,7 +18,7 @@ function Housing() {
 
 /* It's fetching the data from the json file and setting the state of the housing. */
 	useEffect(() => {
-		fetch('../logements.json')
+		fetch('/logements.json')
 			.then((response) => response.json())
 			.then((datas) => {
 				const data = datas.find(datahousing => datahousing.id === id);
@@ -26,6 +26,7 @@ function Housing() {
 				if (data === undefined) navigation('/error');
 			}).catch(() => navigation("/error"));
 	},[id, navigation]);
+	console.log(housing);
 
 	/* It's destructuring the housing object. */
 	const {title, location, pictures, rating, host, tags, description, equipments} = housing;

@@ -17,11 +17,13 @@ function Home() {
 
   /* Fetching the data from the json file and setting it to the state. */
   useEffect(() => {
-		fetch("./logements.json")
+		fetch("/logements.json")
 			.then((response) => response.json())
 			.then((datahousings) => setAllHousings(datahousings))
 			.catch(() =>	navigation("/error"));
+      
 	}, [navigation]);
+  console.log(AllHousings);
 
   return (
     <>
